@@ -6,7 +6,7 @@ node_modules/
 # dist/*
 dist/css/maps/
 
-fonts/
+# fonts/
 
 src/packages/jquery/*
 !src/packages/jquery/dist/jquery.min.js
