@@ -1,0 +1,106 @@
+// Brand Colours
+//$colorOne: #005959; // Dark Green
+$colorTwo: #84329b; // Purple
+//$colorThree: #00ce9b; // Green
+// $colorFour: #ccf5eb; // Lt Green
+// $colorFive: #ffd72e; // Yellow
+// $colorSix: #639BC6; // blue
+$vibrantGreen: #09a883;
+
+// Colours
+$crystal-dark-green: #005959; // Dark Green
+$crystal-purple: #84329b; // Purple
+$crystal-green: #00ce9b; // Green
+$crystal-light-green: #ccf5eb; // Lt Green
+$crystal-yellow: #ffd72e; // Yellow
+$crystal-blue: #639BC6; // blue
+
+
+$fenwayGreen: rgb(84, 121, 109); // #54796d
+$fenwayBlue: rgb(37, 44, 65); // #252c41
+$fenwayWhite: rgb(238, 239, 236); // #eeefec
+$fenwayYellow: rgb(255, 205, 9); // #ffcd09
+$fenwayRed: rgb(190, 59, 67); // #be3b43
+
+$green2: $fenwayGreen; // #54796d // rgba(84, 121, 109, 1)
+$green3: #73C0A7; // #73C0A7 // rgba(???, 1)
+$green1: darken($green3, 40%); // #20473A // rgba(???, 1)
+$green4: saturate($fenwayGreen, 75);
+
+
+$colorOne: lighten($fenwayBlue, 15%);
+$colorThree: $fenwayRed;
+$colorThreeDark: darken($colorThree, 10%);
+
+
+$season: 'winter';
+$siteId: 78;
+
+$shadow: #F5FDFB;
+$lightBrand: $crystal-light-green; // eg price panel colour
+
+$linkColor: $crystal-blue;
+$linkColorHover: $red;
+
+// Full Width Search Panel
+$searchPanelBG: $black;
+$searchPanelSeperator: #00CD9B;
+$searchPanelBtnBG: $colorThree;
+$searchPanelBtnBorder: darken($searchPanelBtnBG, 10%);
+$searchPanelModalBG: #e0e0e0;
+
+// Buttons
+$primaryBtnBG: #c0023e;
+$primaryBtnBorder: darken($primaryBtnBG, 5%);
+
+$secondaryBtnBG: #65137c;
+$secondaryBtnBorder: darken($secondaryBtnBG, 5%);
+
+$tertiaryBtnBG: $colorThree;
+$tertiaryBtnBorder: darken($tertiaryBtnBG, 5%);
+
+// Info box colours
+$infoBoxBorder: #cee1e1;
+$infoBoxHeaderBG: $shadow;
+$infoBoxHeaderText: $colorOne;
+$infoBoxContentBG: $shadow;
+
+// border colour
+$borderColour: $infoBoxBorder;
+
+// Holiday summary panel
+$holidaySummaryBG: $black;
+
+// Summary panel
+$summaryPanel: $black;
+
+// Breadcrumbs
+$breadCrumbs: $black;
+
+// Fonts
+$brandFontHeading: 'Brandon Grotesque Regular', sans-serif;
+$brandFontHeadingBold: 'Brandon Grotesque Bold', sans-serif;
+$brandFontText: Arial,'Helvetica Neue',Helvetica,sans-serif;
+
+// Single icons (these need to be sprited at some point)
+$holidayFeaturesIcon: url(https://www.crystalski.co.uk/static/img/crystal/ski/crystaltick_5.png);
+$passengerIcon: url(https://www.crystalski.co.uk/static/img/crystal/passenger-icon.png);
+$datePicker: url(https://www.crystalski.co.uk/static/img/crystal/ski/calendar_icon_winter.png);
+
+// Sprites
+$ratingsSprite: url(https://www.crystalski.co.uk/static/img/crystal/ski/ratings-sprite.png);
+$xtraIconSprite: url(https://www.crystalski.co.uk/static/img/crystal/ski/extras_sprite_ski_uk.png) no-repeat;
+$iconsSprite: url(https://www.crystalski.co.uk/static/img/crystal/ski/icons-spritesheet.png) no-repeat;
+$progressSprite: url(https://www.crystalski.co.uk/static/img/crystal/ski/progress.png);
+$outboundReturnSprite: url(https://www.crystalski.co.uk/static/img/crystal/ski/outboundreturn.png);
+
+
+$new-summary-panel-bg-color: #F5FDFB;
+$new-summary-panel-border-color: #5AA896;
+$new-summary-panel-section-bg-color: #CDF5EB;
+$new-summary-panel-header-color: #1B6867;
+$new-summary-panel-strong-color: #246D6D;
+$new-summary-panel-span-color: #649B99;
+$new-summary-panel-grey-color: #737182;
+$travel-border-color: #F9F9F9;
+$new-summary-panel-purple: #853D9B;

@@ -1,0 +1,59 @@
+.panels {
+	max-width: 300px;
+	margin: 0 auto;
+	@media (min-width: 769px) {
+		padding: 0 1em;
+	}
+}
+
+.panels__row {
+	display: flex;
+	margin-bottom: 0.5em;
+	.panel {
+		display: flex;
+		flex-grow: 1;
+		padding-left: 1em;
+	}
+	.check {
+		text-align: center;
+		width: 20%;
+		@media (min-width: 469px) {
+			width: 15%;
+		}
+		.fa {
+			font-size: 2em;
+			margin: 0.5rem 0;
+		}
+	}
+}
+
+.panels__header-row {
+	font-weight: 700;
+}
+
+.panels__data-row {
+	background-color: #f2f2f2;
+	border-color: $dkgrey;
+	border-style: solid;
+	border-width: 0;
+	.panel {
+		align-items: center;
+		.panel__name {
+		}
+	}
+}
+
+.checks__input {
+	display: none;
+	& + .fa {
+		cursor: pointer;
+		&:before {
+			color: $vdkgrey;
+			content: "\f1db";
+		}
+	}
+	&:checked + .fa:before {
+		color: $crystal-green;
+		content: '\f058';
+	}
+}

@@ -1,0 +1,32 @@
+// LOGO
+
+.trigger {
+	.wrap & {
+		color: #005959;
+		cursor: pointer;
+		float: right;
+		font-size: 2rem;
+	}
+}
+
+.site-header {
+	.wrap & {
+		margin-bottom: 2rem;
+	}
+	.logo {
+		display: block;
+		font: 0/0 normal;
+		margin-top: 0.3rem;
+		max-width: 80%;
+		text-indent: -999%;
+		@media screen and ( min-width: 600px ) {
+			margin: 0.5rem auto;
+			max-width: 300px;
+		}
+		.logo__img {
+			display: block;
+			height: auto;
+			width: 100%;
+		}
+	}
+}

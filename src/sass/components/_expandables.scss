@@ -1,0 +1,48 @@
+.expandable {
+	border-color: $dkgrey;
+	border-style: solid;
+	border-width: 1px;
+	margin-bottom: 1.5rem;
+
+}
+
+.expandable__header {
+	color: $black;
+	cursor: pointer;
+	font-weight: bold;
+	padding: 1rem;
+	padding-right: 70px;
+	position: relative;
+
+	&:hover,
+	&:active {
+		background-color: $new-summary-panel-section-bg-color;
+	}
+
+	&:after {
+		content: '';
+		width: 20px;
+		height: 17px;
+		background: transparent url(https://www.crystalski.co.uk/static/img/crystal/chevron--lg.png) no-repeat 0 0;
+		background-size: 20px;
+		position: absolute;
+		right: 1em;
+		top: 50%;
+		margin-top: -0.5rem;
+	}
+
+	.active & {
+		background-color: $new-summary-panel-section-bg-color;
+		border-color: $dkgrey;
+		border-style: solid;
+		border-width: 0 0 1px;
+		&:after {
+			margin-top: -1rem;
+			transform: rotate(180deg);
+		}
+	}
+}
+
+.expandable__content {
+	// padding: 1rem;
+}

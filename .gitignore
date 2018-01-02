@@ -1,0 +1,27 @@
+.*
+!.gitignore
+
+node_modules/
+
+# dist/*
+dist/css/maps/
+
+fonts/
+
+src/packages/jquery/*
+!src/packages/jquery/dist/jquery.min.js
+
+src/packages/magnific-popup/*
+!src/packages/magnific-popup/dist/jquery.magnific-popup.js
+
+src/packages/gridism/
+src/packages/normalize-css/
+src/packages/font-awesome/*
+!src/packages/font-awesome/scss/
+
+# src/packages/font-awesome/*
+
+src/js/vendor/
+*.ai
+img/favicon_old/
+meta.txt
