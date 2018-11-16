@@ -20,8 +20,8 @@ var msg = function( title, message ){
 };
 
 var scriptInput = [
-	'./src/packages/jquery/dist/jquery.min.js',
-	'./src/packages/magnific-popup/dist/jquery.magnific-popup.js',
+	'./node_modules/jquery/dist/jquery.min.js',
+	'./node_modules/magnific-popup/dist/jquery.magnific-popup.js',
 	'./src/js/modules/*.js',
 	'./src/js/main.js'
 ];
@@ -37,8 +37,7 @@ var sassOpts = {
 	errLogToConsole: true,
 	outputStyle: 'nested',
 	includePaths: [
-		'./src/sass',
-		'./src/packages'
+		'./src/sass'
 	]
 };
 

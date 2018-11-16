@@ -8,11 +8,11 @@ dist/css/maps/
 
 # fonts/
 
-src/packages/jquery/*
-!src/packages/jquery/dist/jquery.min.js
+src/packages/jquery/
+!node_modules/jquery/dist/jquery.min.js
 
-src/packages/magnific-popup/*
-!src/packages/magnific-popup/dist/jquery.magnific-popup.js
+src/packages/magnific-popup/
+!node_modules/magnific-popup/dist/jquery.magnific-popup.min.js
 
 src/packages/gridism/
 src/packages/normalize-css/
